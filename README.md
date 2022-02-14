@@ -9,6 +9,8 @@ The main functionality of this bot is to:
 - **/upcoming** - lists the next event
 - **/listRemaining** - lists the remaining items for this month
 
+There might be more (according to my CG's needs, of course), but it won't be updated here anymore.
+
 # Learning Outcome
 It's a simple bot, but a few things I learned are:
 1) How to deploy stuff onto heroku!
