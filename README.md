@@ -13,8 +13,10 @@ There might be more (according to my CG's needs, of course), but it won't be upd
 
 # Learning Outcome
 It's a simple bot, but a few things I learned are:
-1) How to deploy stuff onto heroku!
+1) How to deploy stuff onto Heroku!
 2) How to make a (simple) Telegram bot
 3) Making use of Google Drive/Sheets API on Google Cloud in order to read Google Sheets, and making meaningful use of the data
 
+# Final Note
 Overall, it was pretty fun. I struggled most with getting the Heroku deployment properly, which I thought should have been the easiest. But that's my own mistake, as I was really just trying to rush through it (HUGE mistake).
+Lastly, since the bot isn't a web process, note that `heroku scale worker=1` needs to be ran after (each) deploying the app on Heroku!
